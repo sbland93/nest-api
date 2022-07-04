@@ -6,7 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "deploy": "npm i reactstrap --legacy-peer-deps && npm run build && npm start:prod",
+    "deploy": "npm ci && npm run build && npm start:prod",
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -68,7 +68,7 @@
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",
     "swagger-ui-express": "^4.3.0",
-    "typeorm": "^0.2.41",
+    "typeorm": "^0.3.7",
     "utf8": "^3.0.0"
   },
   "devDependencies": {
